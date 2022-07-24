@@ -1,0 +1,139 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 5px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.heading{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heading-2{
+    border: 1px solid rgb(0, 122, 128);
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+    
+.nav_links{
+    list-style : none;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 122, 128);
+}
+.nav_links li {
+    margin: 10px 10px;
+    color: rgb(0, 122, 128);
+}
+.nav_links li a{
+    color: rgb(0, 122, 128);
+}
+
+.tablecenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+.homePageTable{
+    border-top: 4px solid grey;
+    border-left: 4px solid grey;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.homePageTable td{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.home-img{
+    padding: 5px;
+    width: 220px;
+    height: 70px;
+}
+
+.hometable-h3{
+    padding: 15px 25px;
+}
+
+.hometable-p{
+    padding: 5px 25px 5px 25px;
+}
+
+.videotable{
+    margin: 15px auto;
+    width: 80%;
+}
+
+.video-description{
+    padding: 10px;
+    font-weight: 600;
+}
+
+.interview{
+    margin: 20px auto;
+    width: 82%;
+}
+
+.interview-name{
+    border-bottom: 2px solid orangered;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.interview-content{
+    padding: 8px 0;
+    line-height: 2.5em;
+    font-weight: 500;
+    font-size: 17px;
+}
+.TimeT{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    border-top: 4px solid grey;
+    border-left: 4px solid grey;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+table{
+    width: 70rem;
+    height: 30rem;
+}
+.TimeT th{
+    border:1px solid grey;
+    padding: 20px;
+    background-color: rgb(222, 217, 217);
+}
+.TimeT td{
+    border:1px solid grey;
+    padding: 20px;
+    text-align: center;
+    
+}
+.TimeT tr:nth-child(even)
+{
+  background-color: rgb(222, 217, 217);
+  color:black;
+}
+/* .rotate{
+    transform: rotate(-90.0deg);  
+} */
