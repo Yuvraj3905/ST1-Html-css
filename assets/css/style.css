@@ -22,6 +22,7 @@
 .heading{
     text-align: center;
     margin: 20px 0;
+    margin-left: 22px;
 }
 
 .heading-2{
@@ -40,7 +41,7 @@
 }
 .nav_links li {
     margin: 10px 10px;
-    color: rgb(0, 122, 128);
+    color: rgb(0, 123, 129);
 }
 .nav_links li a{
     color: rgb(0, 122, 128);
@@ -134,6 +135,6 @@ table{
   background-color: rgb(222, 217, 217);
   color:black;
 }
-/* .rotate{
-    transform: rotate(-90.0deg);  
-} */
+.rotate{
+    transform: rotate(-90deg)
+}
